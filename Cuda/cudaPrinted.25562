@@ -1,0 +1,47 @@
+For 5 x 5 Matrix
+Runtime for LU Decomposition is: 0.67
+Matrix 'A' is:
+
+28       7        8        6        4        
+6        25       3        10       2        
+3        8        28       10       4        
+7        1        7        23       7        
+2        9        8        10       34       
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Matrix 'L' is:
+28       0        0        0        0        
+6        23.5     0        0        0        
+3        7.25     26.7     0        0        
+7        -0.75    5.04     20.5     0        
+2        8.5      6.96     4.68     31.2     
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Matrix 'U' is: 
+1        0.25     0.286    0.214    0.143    
+0        1        0.0547   0.371    0.0486   
+0        0        1        0.249    0.12     
+0        0        0        1        0.265    
+0        0        0        0        1        
+=====================JOB DIAGNOTICS========================
+Thu Dec  5 22:47:08 MST 2019
+This machine is node18
+My jobid is 25562
+My path is:
+/usr/lib64/qt-3.3/bin:/opt/intel/compilers_and_libraries_2019.4.243/linux/mpi/intel64/libfabric/bin:/opt/intel/compilers_and_libraries_2019.4.243/linux/mpi/intel64/bin:/usr/local/maven/bin:/opt/intel/compilers_and_libraries_2019.4.243/linux/bin/intel64:/opt/intel/compilers_and_libraries_2019.4.243/linux/mpi/intel64/libfabric/bin:/opt/intel/compilers_and_libraries_2019.4.243/linux/mpi/intel64/bin:/opt/intel/debugger_2019/gdb/intel64/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/usr/local/gcc-5.4.0/bin:/opt/ibutils/bin:/home/michael.k.chen/.local/bin:/home/michael.k.chen/bin
+My job info:
+             JOBID PARTITION     NAME     USER ST       TIME  NODES NODELIST(REASON)
+             25562 short-gpu  gpucode michael.  R       0:06      1 node18
+Machine info
+PARTITION       AVAIL  TIMELIMIT   NODES(A/I/O/T)  NODELIST
+month-long-cpu     up 31-00:00:0        2/14/0/16  node[2-17]
+week-long-cpu      up 7-00:00:00        2/14/0/16  node[2-17]
+day-long-cpu       up 1-00:00:00        2/14/0/16  node[2-17]
+short-cpu*         up      30:00        2/14/0/16  node[2-17]
+interactive-cpu    up 2-00:00:00        2/14/0/16  node[2-17]
+month-long-gpu     up 31-00:00:0          1/0/0/1  node18
+week-long-gpu      up 7-00:00:00          1/0/0/1  node18
+day-long-gpu       up 1-00:00:00          1/0/0/1  node18
+short-gpu          up      30:00          1/0/0/1  node18
+interactive-gpu    up 2-00:00:00          1/0/0/1  node18
+========================ALL DONE===========================

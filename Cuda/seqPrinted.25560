@@ -1,0 +1,41 @@
+Producing random values 
+A Matrix: 
+26       7        8        6        4        
+6        24       3        10       2        
+3        8        29       10       4        
+7        1        7        25       7        
+2        9        8        10       30       
+L Matrix: 
+26       0        0        0        0        
+6        22.4     0        0        0        
+3        7.19     27.7     0        0        
+7        -0.885   4.89     22.6     0        
+2        8.46     6.95     4.64     27.4     
+U Matrix:
+1        0.269    0.308    0.231    0.154    
+0        1        0.0515   0.385    0.0481   
+0        0        1        0.236    0.115    
+0        0        0        1        0.239    
+0        0        0        0        1        
+Runtime: 0seconds
+=====================JOB DIAGNOTICS========================
+Thu Dec  5 22:46:49 MST 2019
+This machine is node4
+My jobid is 25560
+My path is:
+/usr/lib64/qt-3.3/bin:/opt/intel/compilers_and_libraries_2019.4.243/linux/mpi/intel64/libfabric/bin:/opt/intel/compilers_and_libraries_2019.4.243/linux/mpi/intel64/bin:/usr/local/maven/bin:/opt/intel/compilers_and_libraries_2019.4.243/linux/bin/intel64:/opt/intel/compilers_and_libraries_2019.4.243/linux/mpi/intel64/libfabric/bin:/opt/intel/compilers_and_libraries_2019.4.243/linux/mpi/intel64/bin:/opt/intel/debugger_2019/gdb/intel64/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/usr/local/gcc-5.4.0/bin:/opt/ibutils/bin:/home/michael.k.chen/.local/bin:/home/michael.k.chen/bin
+My job info:
+             JOBID PARTITION     NAME     USER ST       TIME  NODES NODELIST(REASON)
+             25560 interacti  seqcode michael.  R       0:00      1 node4
+Machine info
+PARTITION       AVAIL  TIMELIMIT   NODES(A/I/O/T)  NODELIST
+month-long-cpu     up 31-00:00:0        3/13/0/16  node[2-17]
+week-long-cpu      up 7-00:00:00        3/13/0/16  node[2-17]
+day-long-cpu       up 1-00:00:00        3/13/0/16  node[2-17]
+short-cpu*         up      30:00        3/13/0/16  node[2-17]
+interactive-cpu    up 2-00:00:00        3/13/0/16  node[2-17]
+month-long-gpu     up 31-00:00:0          0/1/0/1  node18
+week-long-gpu      up 7-00:00:00          0/1/0/1  node18
+day-long-gpu       up 1-00:00:00          0/1/0/1  node18
+short-gpu          up      30:00          0/1/0/1  node18
+interactive-gpu    up 2-00:00:00          0/1/0/1  node18
