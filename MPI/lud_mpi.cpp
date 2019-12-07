@@ -272,9 +272,9 @@ void l_u_d(float* a, float* l, float* u, int size, int process_num, int num_of_p
 	{
 		//print l and u
 		cout << "L Matrix: " << endl;
-		//print_matrix(l2, size);
+		print_matrix(l2, size);
 		cout << "U Matrix:" << endl;
-		//print_matrix(u2, size);
+		print_matrix(u2, size);
 	}
 	MPI_Barrier(MPI_COMM_WORLD);
 	
@@ -356,7 +356,7 @@ int main(int argc, char* argv[])
 		random_fill(a, size, 6);
 		//print A
 		cout << "A Matrix: " << endl;
-		//print_matrix(a, size);
+		print_matrix(a, size);
 		//cout << "Number of processes: " << num_of_processes << endl;
 		run_time = MPI_Wtime();
 	}	
